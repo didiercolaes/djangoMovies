@@ -2,9 +2,13 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>actors</title>
 </head>
 <body>
-
+<ul>
+    {% for a in actors %}
+        <li><{{ a.name }}</li>
+    {% endfor %}
+</ul>
 </body>
 </html>
